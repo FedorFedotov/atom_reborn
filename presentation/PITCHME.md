@@ -55,7 +55,7 @@ login:
     Path: chat/login
     Method: POST
     PathParam: name
-    Host: {IP}:8080
+    Host: {IP}:80
     Response:
       Success code: 200
       Fail code:
@@ -71,7 +71,7 @@ online:
     Protocol: HTTP
     Path: chat/chat
     Method: GET
-    Host: {IP}:8080
+    Host: {IP}:80
     Response:
       Success code: 200
 ```
@@ -84,7 +84,7 @@ online:
     Protocol: HTTP
     Path: chat/online
     Method: GET
-    Host: {IP}:8080
+    Host: {IP}:80
     Response:
       Success code: 200
 ```
@@ -99,7 +99,7 @@ say:
     Method: POST
     Body:
       name=my_name&msg=my message
-    Host: {IP}:8080
+    Host: {IP}:80
     Response:
       Success code: 200
       Fail code:
@@ -116,7 +116,7 @@ logout:
     Method: POST
     Body:
       name=my_name
-    Host: {IP}:8080
+    Host: {IP}:80
     Response:
       Success code: 200
 ```

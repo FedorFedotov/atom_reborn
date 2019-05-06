@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ChatClient {
     private static final OkHttpClient client = new OkHttpClient();
     private static final String PROTOCOL = "http://";
-    private static final String HOST = "localhost";
+    private static final String HOST = "192.168.99.100";
     private static final String PORT = ":8080";
 
     public static Response login(String name) throws IOException {
